@@ -1,0 +1,13 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: gaecl
+    description: Github repository for gaecl
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/gaecl
+      sonarqube.org/project-key: AODocs-Dev_gaecl
+  spec:
+    type: service
+    lifecycle: production
+    owner: group:default/sre
